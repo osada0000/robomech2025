@@ -1,0 +1,42 @@
+\subsection{ウェアラブル椅子の立ち上がり支援実験}
+        開発したウェアラブル椅子に人を乗せた状態で立ち上がり支援可能か確認を行った．
+        シリンダが一番短い状態で，シリンダの伸ばす部屋に空気を印加した．
+        シリンダの縮める部屋は弁を閉じている．荷重は，体重計にウェアラブル椅子を置き，
+        計測を行っている．伸びた長さはカメラ画像から求めた．メインタンクの容量は3 Lであり，
+        400 kPa印加されている．実験の様子を\figref{support standup.eps}に示す．
+        メインタンクから圧力を供給したときの圧力変化を\figref{standup pressure.eps}に，
+        \figref{standup support length.eps}にシリンダ長さと荷重の変化を示す．
+        メインタンクからシリンダに空気を印加したところ，
+        シリンダを伸ばす部屋の圧力は362 kPa，平均43.0 kgの荷重がかかっている状態
+        で129 mm持ち上げることを確認した．また，\subsecref{st}より
+        求められるメインタンクが400 kPaから平衡状態へ移行した時のシリンダを伸ばす
+        部屋の圧力$P_{s\_eq1}$は360 kPaであり，測定値と近い値を取ることが確認できた．
+        加えて，\subsecref{st}より求められるシリンダの伸び$z_{s1}$は131 mmであり，
+        測定値と近い値を取ることを確認できた．
+        \begin{figure}[t]%
+                \begin{center}%
+                 \pastefig{\FIGDIR/support standup.eps}{width=0.7\hsize}%
+                 \vspacebeforefig
+                 \caption{Stand-up assistance experiment flow}%
+                 \figlabel{support standup.eps}%
+                 \vspaceafterfig
+                \end{center}%
+        \end{figure}% 
+        \begin{figure}[t]%
+                \begin{center}%
+                 \pastefig{\FIGDIR/standup pressure.eps}{width=0.65\hsize}%
+                 \vspacebeforefig
+                 \caption{Stand-up assistance experiment (pressure)}%
+                 \figlabel{standup pressure.eps}%
+                 \vspaceafterfig
+                \end{center}%
+        \end{figure}% 
+        \begin{figure}[t]%
+                \begin{center}%
+                 \pastefig{\FIGDIR/standup support length.eps}{width=0.65\hsize}%
+                 \vspacebeforefig
+                 \caption{Stand-up assistance experiment (cylinder length and weight)}%
+                 \figlabel{standup support length.eps}%
+                 \vspaceafterfig
+                \end{center}%
+        \end{figure}% 

@@ -1,0 +1,62 @@
+\section{立ち上がり時支援と中腰支援が可能な装置の提案}
+立ち上がり時支援と中腰支援が可能なウェアラブル椅子の模式図を
+\figref{concept.eps}に示す．
+圧縮空気を利用して伸縮する空気圧シリンダにより立ち上がり時支援と中腰支援を行う．
+空気圧シリンダに圧縮空気を印加し，弁を閉じることで中腰姿勢維持をエネルギー
+消費なしに中腰姿勢を維持するができ，長時間使用に貢献することができる．
+\subsection{小型ウェアラブル椅子の機構および製作}
+試作した小型のウェアラブル椅子を\figref{equipment}の(a)に示す．
+シリンダ非伸長時の全長は270 mm，重さは0.56 kgである．使用するシリンダの
+ストロークが60 mmである．
+\figref{equipment}の(b)に関節構造を取り入れることでウェアラブル椅子移動
+の妨げにならないような設計となっている．
+スピンロック（イマオコーポレーション製）のノブを90 deg回すことにより座面
+のロックを行うことが可能である．
+\subsection{小型ウェアラブル椅子の動作試験}
+製作した小型ウェアラブル椅子の上に重量3.1 kgのROBOTIS社製の
+ヒューマノイドロボットDARwin-OPを
+乗せて中腰維持と立ち上がりサポートが可能か検証実験を行った．
+実験の様子を\figref{equipment}に示す．0から200 kPaの圧縮空気を
+印加して変化の様子
+\fig{concept.eps}{width=0.9\hsize}{Concept of a wearable chair}
+\begin{figure}[tbp]
+    \begin{minipage}[b]{0.45\linewidth}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.17]{/home/osada/template_robomech2024_tex/fig/soutinamae.eps}
+      \subcaption{Prototype of a small wearable chair}
+      \label{fig:equipment_a}
+    \end{minipage}
+    \begin{minipage}[b]{0.45\linewidth}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.25]
+      {/home/osada/template_robomech2024_tex/fig/souticoncept.eps}
+      \subcaption{Articulated structure of the seat}
+      \label{fig:equipment_b}
+    \end{minipage}
+    \caption{Experimental equipment}
+    \label{fig:equipment}
+  \end{figure}
+
+  \begin{figure}[tbp]
+    \begin{minipage}[b]{0.45\linewidth}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.35]
+      {/home/osada/template_robomech2024_tex/fig/dausamae.eps}
+      \subcaption{Non-applied}
+    \end{minipage}
+    \begin{minipage}[b]{0.45\linewidth}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.35]
+      {/home/osada/template_robomech2024_tex/fig/dausaato.eps}
+      \subcaption{At 300 kPa applied}
+    \end{minipage}
+    \caption{Experiment}
+    \label{fig:experiment}
+  \end{figure}
+\noindent
+を調べた．
+\figref{equipment}の(a)は非印加時の状態であり，\figref{equipment}の(b)は，
+300 kPa印加している状態である．実験結果から300 kPa印加することで
+DARwin-OPを持ち上げることができた．
+また，その状態でコンプレッサを止め電磁弁を閉じ，エネルギー供給を止めても
+その状態を維持することも確認できた．

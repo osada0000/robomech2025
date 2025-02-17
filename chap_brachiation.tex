@@ -1,0 +1,24 @@
+\section{伸縮を利用したブラキエーション動作}
+ブラキエーション動作の途中で，ロボットが伸びることにより空中相を含まずに遠くのバーへ移動することができる。
+これを実験により実証した．
+実験におけるロボットの流れは，
+\begin{enumerate}
+  \item 全長が$650$ mmの状態で，両グリッパでバーを掴んだ状態から片グリッパをバーから離す
+  \item バーを回転軸として，最下点まで揺れる
+  \item 最下点において100 mm縮み，振動を拡大
+  \item 最上点付近で全長790 mmまで伸び，次のバーを掴む
+\end{enumerate}
+グリッパを掴む・離す，伸縮するタイミングは試行錯誤して決定した．
+また，動作の途中で，ロボットの全長を縮めて重心移動し，振動を拡大する．
+これは，空気抵抗やケーブルなどの影響によって，励振無しでは次のバーへ到達できないためである．
+伸縮するブラキエーションの様子を図\ref{b_1}に示す．
+% \begin{figure}[tb]
+%   \begin{center}
+%     \includegraphics[keepaspectratio, width=\linewidth]{/home/hijiri/template_robomech2024_tex/fig/brachiation_exp.eps}
+%     \caption{Brachiation motion using expansion and contraction}
+%     \label{b_1}
+%   \end{center}
+\end{figure}
+結果として，140 mm先のバーへ到達することができた．
+空中相と呼ばれる，飛ぶようなフェーズを含むことで遠くのバーへ到達可能なブラキエーションの研究はあるが，
+それに対し，伸縮を利用することで遠くのバーへ到達できることを示した．

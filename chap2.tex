@@ -1,0 +1,61 @@
+\section{ウェアラブル椅子のコンセプトと空気回生機構}
+% \subsection{はじめに}
+% 本章ではウェアラブル椅子のコンセプトと空気回生機構の有効性について述べる．
+\begin{figure}[h]%
+        \begin{center}%
+         \pastefig{\FIGDIR/2.1.eps}{width=0.6\hsize}%
+         \vspacebeforefig
+         \caption{Concept of wearable chair}%
+         \figlabel{2.1.eps}%
+         \vspaceafterfig
+        \end{center}%
+       \end{figure}%
+    
+    \fig{kaisei(zu).eps}{width=0.7\hsize}
+    {The pneumatic circuit with the regenerative air
+    pressure system  and air flows of each states}
+\subsection{ウェアラブル椅子のコンセプト}
+\figref{2.1.eps}は，本研究で目的とする動作を示す．ウェアラブル椅子は，
+人間の臀部付近に空気圧シリンダが設置された構造をしている．立ち上がり時支援と
+中腰支援の2つの動作を行うことができる．
+\figref{2.1.eps}aと\figref{2.1.eps}bは中
+腰支援の様子である．
+シリンダが一番縮んだの状態から空気を印加し，弁を閉じることで\figref{2.1.eps}bで示す
+任意の位置での中腰支援が可能である．また．空気を動力源としているため
+空気を印加し弁を閉じればエネルギー消費無しに中腰支援を行うことが可能である．
+\figref{2.1.eps}cは立ち上がり時支援の様子である．空気を印加し，シリンダを伸ばすことで，
+立ち上がり時支援を行うことができる．\figref{2.1.eps}dは移動中の様子である．
+使用者が移動する間，シリンダと座面とのなす角を変えることで移動中に
+農作物などにシリンダが接触を防ぐことができる．
+\subsection{空気回生機構の有効性}
+通常，使用した圧縮空気を排気する場合は大気へと解放されている．
+しかし，圧縮空気を大気へと解放することは，空気圧シリンダに用いた
+圧縮空気のエネルギーをすべて捨てることを意味する．バッテリーのみで
+長時間動作を実現するためには，余分な消費電力を減らす，すなわちコンプレッサ
+の動作時間を短くすることが求められる．そこであらかじめ大気圧以上に加圧された空気
+をコンプレッサに吸気することでコンプレッサの動作時間を短くする．
+この空気圧回生を用いた空気回路図を\figref{kaisei(zu).eps}にを示す．通常は排気弁によって
+大気解放されるアクチュエータ内の圧縮空気の一部を回生弁から回生用回生タンクに送り込み，
+一時的に圧縮空気を貯蔵する．回生用回生タンクに貯蔵された圧縮空気は，
+コンプレッサが動作する際には吸気として供給され，圧縮空気の回生動作を実現する．
+\begin{figure}[t]%
+        \begin{center}%
+         \pastefig{\FIGDIR/wearablechair.eps}{width=0.2\hsize}%
+         \vspacebeforefig
+         \caption{Wearable chair}%
+         \figlabel{wearablechair.eps}%
+         \vspaceafterfig
+ \end{center}%
+\end{figure}% 
+% \begin{figure}[t]%
+%         \begin{center}%
+%          \pastefig{\FIGDIR/4.7.eps}{width=0.2\hsize}%
+%          \vspacebeforefig
+%          \caption{Compressor(SQUSE,MP-2-2-C)}%
+%          \figlabel{4.7.eps}%
+%          \vspaceafterfig
+% \end{center}%
+% \end{figure}% 
+%    \fig{wearablechair.eps}{width=0.27\hsize}
+%    {Wearable chair}
+%    \fig{4.7.eps}{width=0.2\hsize}{Compressor(SQUSE,MP-2-2-C)}

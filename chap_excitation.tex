@@ -1,0 +1,89 @@
+\section{伸縮による振動拡大}
+\subsection{伸縮による振動拡大のメカニズム}
+% 図\ref{3.1}に棒の上を質点が移動する振り子のモデルを示す．これは棒状ブラキエーションロボットを簡略化したものである．ここで，振り子の半径方向と鉛直下向き線がなす角を$\phi$[rad]，振り子の半径方向における回転中心からの質点の位置を$r$[m]，振り子の質量を$\rm{m_R}$[kg]，振り子の慣性モーメントを$\rm{I_R[kgm^2]}$，質点の質量を$\rm{m_M}$[kg]，振り子の長さをl[m]とする．
+% \begin{figure}[tb]
+%         \begin{minipage}[b]{0.4\linewidth}
+%           \centering
+%           \includegraphics[keepaspectratio, width=\linewidth]{/home/hijiri/mthesis-template-utf8/fig/3.1.eps}
+%           \caption{Simplified model}
+%           \label{3.1}
+%         \end{minipage}
+%         \begin{minipage}[b]{0.55\linewidth}
+%           \centering
+%           \includegraphics[keepaspectratio, width=\linewidth]{/home/hijiri/mthesis-template-utf8/fig/excite_flow.eps}
+%           \caption{Excitation flow}
+%           \label{3.2}
+%         \end{minipage}
+%       \end{figure}
+% \begin{figure}[tb]
+% \begin{center}
+% \includegraphics[keepaspectratio, width=0.3\linewidth]{/home/hijiri/mthesis-template-utf8/fig/3.1.eps}
+% \caption{Simplified model}
+% \label{3.1}
+% \end{center}
+% \end{figure}
+この系の力学的エネルギーは
+\begin{eqnarray}
+\begin{split} 
+\equlabel{3.1}
+T &= m_R \frac{l^2}{8} \dot{\phi}^2 + m_M \left(\frac{l}{2}-r\right)^2 \!\frac{\dot{\phi}^2}{2} \\
+&\quad + m_M \frac{\dot{r}^2}{2} + I_R \frac{\dot{\phi}^2}{2}，
+\end{split}
+\end{eqnarray}
+位置エネルギーは
+\begin{eqnarray}
+\equlabel{3.2}
+U = - g \, m_R \frac{l}{2} \cos(\phi) - g \, m_M \left( \frac{l}{2}-r \right) \cos(\phi)
+\end{eqnarray}
+で表わされる．
+
+ここで，質点の位置$r$が
+\begin{eqnarray}\label{cond_1}
+        r
+        =
+        \begin{cases}
+        r_\text{MAX} &\mathrm{if}\,\mathrm\phi \dot{\phi} > 0 \lor \mathrm\phi = 0\\
+        r_\text{MIN} &\mathrm{if}\,\mathrm\phi \dot{\phi} < 0 \lor \dot{\phi} = 0
+        \label{eq:setpoint}
+        \end{cases}
+\end{eqnarray}
+に従って移動する場合（図\ref{3.2}に示す重心の移動），
+$\left|\theta\right|<=\pi$では，系の力学的エネルギは，半周期ごとに次のように増加する．
+\begin{eqnarray}\label{M_E_excite}
+\begin{split} 
+\Delta E_{t_{0}}^{t_{2}}&=\Delta T_{t_{0}}^{t_{0}^{+}}\\
+&+g m_{M}\left(r_{\mathrm{MAX}}-r_{\mathrm{MIN}}\right)\left(1-\cos \left(\phi\left(t_{1}\right)\right)\right)
+\end{split}
+\end{eqnarray}
+ここで，$\Delta T_{t}^{t^{+}}$は
+\begin{eqnarray}
+\Delta T_{t}^{t^{+}} & =\left(\frac{M_{11}\left(r\right)}{M_{11}\left(r^{+}\right)}-1\right) \frac{1}{2} M_{11}\left(r\right) {\dot{\phi}}^{2}, \\
+M_{11}(r) & = m_{R} \frac{l^{2}}{4}+m_{M}\left(\frac{l}{2}-r(t)\right)^{2}+I_{R}
+\end{eqnarray}
+である．
+式\ref{M_E_excite}の右辺第$1$項は常に正であり，第$2$項に関しても$\left|x_{1}\right|<=\frac{\pi}{2}$では正になるため，励振できる．
+しかし，これを実機へ適応させる際に，瞬間的に質点を移動させることは現実には不可能なため，式\ref{cond_1}をより一般化した条件である
+\begin{eqnarray}
+r
+=
+\begin{cases}
+r_\text{MAX} &\mathrm{if}\,\mathrm\phi \dot{\phi} > 0,\\
+r_\text{MIN} &\mathrm{if}\,\mathrm\phi \dot{\phi} < 0,\\
+0 &\mathrm{if}\,\mathrm\phi \dot{\phi} = 0.
+\label{eq:setpoint}
+\end{cases}
+\end{eqnarray}
+を満たすように重りの位置をフィードバック制御する．
+ここで，$\phi$はロボットの角度，$\dot{\phi}$はロボットの角速度である．
+\subsection{実機によるセンサフィードバックな振動拡大}
+前節で製作した実機で振動拡大実験を行った．式\ref{eq:setpoint}を基に目標ロボット長さを計算し，制御量をロボット長さ，操作量をモータトルクとしてPD制御した．目標ロボット長さは，IMUで取得した角度と角速度の積の符号によって切り替え，$620$ mmもしくは$770$ mmとした．また，実験環境は図\ref{3.5}と同じ環境を使用した．
+時間とロボット角度$\theta$，ロボット角速度$\dot{\theta
+}$，目標ロボット長さ$r_{\rm{m_{target}}}$，実ロボット長さ$r_{\rm{m}}$の関係を図\ref{4.7}に示す．
+結果として，センサフィードバックにより伸縮するブラキエーションロボットにおいても，ロボットの角度を増幅させることができた．
+% \begin{figure}[tb]
+%         \begin{center}
+%           \includegraphics[keepaspectratio, width=\linewidth]{/home/hijiri/template_robomech2024_tex/fig/excite_2.eps}
+%           \caption{Relationship between time and each parameters}
+%           \label{4.7}
+%         \end{center}
+% \end{figure}

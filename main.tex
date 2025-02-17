@@ -1,0 +1,84 @@
+\documentclass{jarticle}
+\usepackage{robomech}
+\usepackage{graphicx}
+\usepackage{ikuo}%%便利コマンド集．
+% \usepackage{siunitx}
+\usepackage{jtygm}
+\usepackage{bm}
+\usepackage{balance}
+\usepackage{amssymb}
+% \usepackage{here}
+\usepackage{amsmath}
+\usepackage{url}
+\usepackage[hang,small,bf]{caption}
+\usepackage[subrefformat=parens]{subcaption}
+% \usepackage{graphics} % for pdf, bitmapped graphics files
+% \usepackage{epsfig} % for postscript graphics files
+\newcommand{\FIGDIR}{./fig}
+\newcommand{\ctext}[1]{\raise0.1ex\hbox{\textcircled{\scriptsize{#1}}}}
+
+\begin{document}
+\makeatletter
+\title{立ち上がり時支援とエネルギー消費なしの中腰支援が可能な\\空気圧回生型ウェアラブル椅子}
+{\vspace{-7 mm} }
+{Pneumatic Regenerative Wearable Chair for \\
+Supporting Up and a Half-sitting Posture without Energy Consumption}
+{}
+
+\author{
+\begin{tabular}{ll}
+    ○長田京右 (東京農工大)& 正\hspace{1zw} 水内郁夫（東京農工大）
+ % ※協賛・後援団体の会員資格で発表される場合は「正・学」は不要です。
+ \end{tabular}
+ % &\\
+ \vspace{1zh} \\
+ \begin{tabular}{l}
+{\small Kyosuke Osada, TUAT, osada@mizuuchi.lab.tuat.ac.jp}\\
+{\small Ikuo Mizuuchi, TUAT, ikuo@mizuuchi.lab.tuat.ac.jp}
+\end{tabular}
+}
+\makeatother
+
+\abstract{ \small 
+Prolonged sitting and standing up at work is physically demanding.
+The physical burden of long hours of sitting and standing up is great.
+Assistive devices have been studied to reduce the physical burden.
+The work that requires assistive devices is often performed outdoors, 
+and it is difficult to obtain a power source. Therefore, long-term battery 
+power operation is required. This study aims to develop a wearable pneumatic 
+device that can support standing up and a half-sitting posture. Incorporating a 
+pneumatic regeneration mechanism can reduce the physical burden and realize 
+long-term operation.  We fabricated wearable chair to provide mid-back and 
+stand-up support. In addition, the effectiveness of the pneumatic regeneration 
+mechanism was verified through experiments.
+}
+
+\date{} % 日付を出力しない
+\keywords{Long time operation, Air regeneration, Wearable chair}
+
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+
+\small
+% \input{chap_intro.tex}
+% \input{teian.tex}
+% \input{kaisei.tex}
+% \input{compuressor.tex}
+% \input{conclusion.tex}
+% \input{chap_conclusion.tex}
+\input{chap1}
+\input{chap2}
+\input{chap3}
+\input{chap4}
+\input{chap5}
+\input{chap6}
+
+
+\nocite{*}
+
+\bibliography{reference}
+\bibliographystyle{junsrt}
+
+\normalsize
+\end{document}

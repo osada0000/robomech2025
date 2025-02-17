@@ -1,0 +1,53 @@
+\section{伸縮するブラキエーションロボットの製作}
+\subsection{全体}
+% コンセプトを基に実機を製作した．製作したロボットのCAD図，写真をそれぞれ図\ref{4.2}，図\ref{tel_act}に示す．ロボットの重さは$2.5$ kgであり，最も縮めた場合の幅・奥行・高さは$150$×$80$×$500$ mm，最も伸ばした場合の幅・奥行・高さは$150$×$80$×$740$ mmである．腕を鉛直方向にまっすぐ伸ばした形であるが，正面方向からはできる限り上下対称になるように設計した． 
+% \begin{figure}[tb]
+%         \begin{center}
+%           \includegraphics[keepaspectratio, width=0.8\linewidth]{/home/hijiri/template_robomech2024_tex/fig/4.2.eps}
+%           \caption{CAD diagram of the telescoping brachiation robot}
+%           \label{4.2}
+%         \end{center}
+% \end{figure}
+% \begin{figure}[tb]
+%         \begin{center}
+%           \includegraphics[keepaspectratio, width=0.6\linewidth]{/home/hijiri/template_robomech2024_tex/fig/telescopic _actual.eps}
+%           \caption{Overall view of telescoping brachiation robot}
+%           \label{tel_act}
+%         \end{center}
+% \end{figure}
+% \subsection{伸縮機構部}
+% 伸縮機構部のCAD図を図\ref{4.5}に示す．機構にはラックピニオン機構を採用し，中心部のブラシレスDCモータに取り付けられた歯車によって左右のラックが上下，ロボット全体も伸縮する仕組みになっている．また，左右方向の抑えとしてリニアブッシュを使用した．これにより，リニアガイドなどと比較して軽量な機構でスムーズな伸縮ができる．ブラシレスDCモータにはMAXONのEC22 40Wにギア比128のギアヘッドを取り付けたものを使用した．
+% \begin{figure}[tb]
+%         \begin{center}
+%           \includegraphics[keepaspectratio, width=\linewidth]{/home/hijiri/template_robomech2024_tex/fig/4.5.eps}
+%           \caption{Expansion and contraction unit}
+%           \label{4.5}
+%         \end{center}
+% \end{figure}
+% \subsection{グリッパ部}
+% グリッパ部のCAD図を図\ref{4.3}に示す．POMで製作した爪がサーボモジュールで駆動し，グリッパ全体がウォームギヤ機構によってヨー軸に回転することでロボットの進行方向を変えることができる．サーボモジュールには双葉電子工業のRS406CB，ウォームギヤ機構のDCモータにはMAXONのRE16 4.5Wにギア比84のギヤヘッドを付けたものを使用した．また，爪は図\ref{4.4}に示すようにフォームクロージャ型に設計し，トルクをかけずにバーにぶら下がることができる．
+% \begin{figure}[tb]
+%         \begin{tabular}{ccc}
+%             \begin{minipage}{.6\textwidth}
+%                 \centering
+%                 \includegraphics[width=0.8\linewidth]{/home/hijiri/template_robomech2024_tex/fig/4.3.eps}
+%                 \caption{Gripper unit}
+%                 \label{4.3}
+%             \end{minipage}
+%             \begin{minipage}{.4\textwidth}
+%                 \centering
+%                 \includegraphics[width=0.8\linewidth]{/home/hijiri/template_robomech2024_tex/fig/4.4.eps}
+%                 \caption{Clow design}
+%                 \label{4.4}
+%             \end{minipage}
+%         \end{tabular}
+%     \end{figure}
+% \subsection{電装部}
+% 回路の構成図を図\ref{4.6}に示す．ロボット全体の制御にはRaspberry Pi4 ModelBとArduino Dueを使用した．グリッパ部のDCモータはモータドライバを介してArduino Dueに接続されている．また，伸縮機構部のブラシレスDCモータはEPOS2 24/5を介してArduino Dueに接続されており，角度，角速度，トルク制御を行う．また，エンコーダ部にはエンコーダカウンタ(MikroElektronika COUNTER CLICK)が接続されている．ロボット全体の姿勢取得にはIMU(Adafruit BNO055)を使用した．
+% \begin{figure}[tb]
+%         \begin{center}
+%           \includegraphics[keepaspectratio, width=\linewidth]{/home/hijiri/template_robomech2024_tex/fig/4.6.eps}
+%           \caption{Circuit diagram}
+%           \label{4.6}
+%         \end{center}
+% \end{figure}

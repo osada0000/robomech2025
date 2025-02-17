@@ -1,0 +1,38 @@
+\fig{tankidoukaikai.eps}{width=1\hsize}
+{Compressor intake air switching experiment}
+\fig{tankmoderu.eps}{width=1\hsize}
+{Regenerative mchanism model}
+\subsection{シリンダから回生タンクに回収モデル}
+\figref{tankmoderu.eps}にシリンダから回生タンクに圧力を回収するモデルを示す．
+これは，空気回生機構の一部を簡略化したものであり，シリンダと回生タンクの間は，バルブでとじ
+られている．ここでは，シリンダの圧力を$P_1$
+，シリンダの体積を$V_1$，回生タンクの圧力を$P_2$，回生タンクの体積を$V_2$とする．
+バルブを開けた時の圧力を$P$は，
+\begin{eqnarray}
+    P = \frac{1}{V_{1} + V_{2}}(P_{1}V_{1} + P_{2}V_{2})
+\end{eqnarray}
+で表される．
+\fig{tankidoukai.eps}{width=1\hsize}
+{Experiment of solenoid valve switching conditions by pressure}
+\fig{kaiseikai.eps}{width=1\hsize}
+{Compression speed comparison experiment with regeneration}
+\subsection{シリンダから回生タンクへの圧力回収実験}
+\figref{kaiseizukakinaosi1.eps}の横線で示すシリンダから回生タンクへ排気したときに回収できる圧力の計測実験を行った．
+実験の結果を\figref{tankidoukai.eps}に示す．
+シリンダの圧力が200 kPaの時に，回生タンクが109 kPaであり，5 kPa回収，
+シリンダ圧力が，300 kPaの時に，回生タンク圧力が，114 kPa，で9 kPa回収することが確認できた．
+(1)式を用いて計算すると，200 kPaの時に，106 kPa，300 kPaの時に，110 kPa，となり，近い値
+であることが確認することができた．
+実験の値と計算式の値の誤差として考えられるのは，ポリウレタンチューブの圧力が含まれていないことや，
+圧力センサの性能による影響があると考えられる．
+また，シリンダの圧力が高いほうが，シリンダと回生タンクが同じ圧力
+になるまで時間を要することが分かる．
+\subsection{コンプレッサ圧縮速度の短縮実験}
+メインタンクの目標圧力を300 kPaとし，大気圧から
+圧縮空気を生成する場合とサブタンクに200 kPaが
+印加された状態との比較実験を行った．
+実験の結果を\figref{kaiseikai.eps}に示す．
+この結果より，空気回生システムを用いた場合と用いなかった
+場合とを比べると，回生システムを用いた方がタンク内圧の回復が
+早いことが分かる．この条件では，目標圧力300 kPaを生成する
+時間を約10 sほど短縮できていることが確認することができた．
