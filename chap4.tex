@@ -1,3 +1,24 @@
+\begin{figure}[t]%
+        \begin{center}%
+         \pastefig{\FIGDIR/4.3(2).eps}{width=0.9\hsize}%
+         \vspacebeforefig
+         \caption{Air model spring}%
+         \figlabel{4.3(2).eps}%
+         \vspace{-8mm}
+         \vspaceafterfig
+        \end{center}%
+\end{figure}
+\begin{figure}[t]%
+        \begin{center}%
+         \pastefig{\FIGDIR/halfsit pressure(1).eps}{width=0.8\hsize}%
+         \vspacebeforefig
+         \caption{Half-sitting posture support experiment(pressure)}%
+         \figlabel{halfsit pressure(1).eps}%
+         \vspace{-8mm}
+         \vspaceafterfig
+        \end{center}%
+\end{figure}
+% \fig{halfsit pressure.eps}{width=0.65\hsize}{Half-sitting posture support experiment(pressure)}
 \section{中腰支援と空気回生実験}
 \subsection{ウェアラブル椅子の沈み量}\subseclabel{hl}
 ウェアラブル椅子で中腰支援を行う場合，立ち上がった状態でシリンダの伸ばす部屋と
@@ -8,7 +29,7 @@ $P_{h\_cu1}$，$V_{h\_cu1}$，$S_{cu}$，$L_{cu1}$，
 シリンダを縮める部屋の初期圧力，体積，断面積，長さはそれぞれ
 $P_{h\_cb1}$，$V_{h\_cb1}$，$S_{cb}$，$L_{cb1}$とする．
 質量$M$の物体を乗せた時，シリンダが$z_{h1}$だけ縮んだとする．
-このとき，シリンダを伸ばす部屋の圧力，体積はそれぞれ$P_{h\_cu2}$，$V_{h\_cu3}$，
+このとき，シリンダを伸ばす部屋の圧力，体積はそれぞれ$P_{h\_cu2}$，$V_{h\_cu2}$，
 シリンダを縮める部屋の圧力，体積はそれぞれ$P_{h\_cb2}$，$V_{h\_cb2}$に変化したとする．
 等温変化とするとボイルの法則からと縮めた後のピストンの圧力は
 \begin{eqnarray}
@@ -23,22 +44,19 @@ $P_{h\_cb1}$，$V_{h\_cb1}$，$S_{cb}$，$L_{cb1}$とする．
 は求められる．
 % \fig{standup pressure.eps}{width=0.8\hsize}{Stand-up assistance experiment (pressure)}
 % \clearpage
-\fig{halfsit pressure.eps}{width=0.65\hsize}{Half-sitting posture support experiment(pressure)}
-\fig{halfsit haiki(2).eps}{width=0.65\hsize}
-{Sub-tank recovery model during exhausting air from bottom room}
 \subsection{ウェアラブル椅子の中腰支援}
 ウェアラブル椅子に人間が乗せた状態で中腰支援が可能か確認を行った．
 人が立ち上がった状態で，シリンダが最も短い状態の時に，伸ばす部屋と縮める部屋に
 圧縮空気を印加し，弁を閉じた．メインタンクの容量は3 L，400 kPa印加されている．
-圧力変化を\figref{halfsit pressure.eps}示す．始めに，人を乗せずにメインタンクから
+圧力変化を\figref{halfsit pressure(1).eps}示す．始めに，人を乗せずにメインタンクから
 シリンダに350 kPa印加し，弁を閉じた．この時，シリンダを伸ばす部屋の圧力が350 kPa，
 シリンダを縮める部屋の圧力は409 kPa，シリンダは115 mm伸びた状態となる．シリンダを
 伸ばす部屋とシリンダを縮める部屋の圧力が違うのは，ロッドで断面積が違うためである．
 次に，ウェアラブル椅子に座った．この時，約46.8 kgの荷重がかかり，
 シリンダの長さは115 mmから90 mmに変化し，25 mm沈んだ．また，
-\figref{halfsit pressure.eps}より，26 s付近で人がウェアラブル椅子に座ると，
+\figref{halfsit pressure(1).eps}より，26 s付近で人がウェアラブル椅子に座ると，
 シリンダの伸ばす部屋の圧力が高くなり，シリンダの縮める部屋の圧力は低下した．
-また，\subsecref{hl}より求められるシリンダの沈み量$z_{h1}$は22 mmであり，
+また，\subsecref{hl}より求められるシリンダの沈み量$z_{h1}$は24 mmであり，
 沈み量の実験値と近い値であることが確認できた．加えて，中腰支援中はシリンダに空気を
 印加し弁を閉じるため，エネルギー消費なしのサポートができていると考えられる．そのため，
 中腰支援は，同じ高さで作業を行う場合，1度のメインタンクの圧縮空気の使用のみでよいため，
@@ -58,34 +76,77 @@ $P_{h\_cb1}$，$V_{h\_cb1}$，$S_{cb}$，$L_{cb1}$とする．
 %         ここで，式\eqref{12}よりシリンダを縮める部屋の空気は，ボイルの法則を満たす．式\eqref{9}と式\eqref{11}を基にシリンダの伸び$z_{2}$と$P_{eq2}$を求めることができる．
  % \fig{halfsitstand.eps}{width=1\hsize}
  % {Sub-tank recovery model (bottom room exhaust)}
+%  \fig{halfsit haiki(2).eps}{width=0.65\hsize}
+% {Sub-tank recovery model during exhausting air from bottom room}
+\begin{figure}[t]%
+        \begin{center}%
+         \pastefig{\FIGDIR/halfsit haiki(4).eps}{width=0.75\hsize}%
+         \vspacebeforefig
+         \caption{Sub-tank recovery model during exhausting air from bottom room}%
+         \figlabel{halfsit haiki(4).eps}%
+         \vspace{-9mm}
+         \vspaceafterfig
+        \end{center}%
+\end{figure}%  
+\begin{figure}[t]%
+        \begin{center}%
+         \pastefig{\FIGDIR/halfsit haiki(3).eps}{width=0.8\hsize}%
+         \vspacebeforefig
+         \caption{Transition in recovery pressure after half sitting posture support}%
+         \figlabel{halfsit haiki(3).eps}%
+         \vspace{-9mm}
+         \vspaceafterfig
+        \end{center}%
+\end{figure}%  
+\begin{figure}[t]%
+        \begin{center}%
+         \pastefig{\FIGDIR/halfsit-stand(1).eps}{width=0.8\hsize}%
+         \vspacebeforefig
+         \caption{Assistance in standing up after half-sit posture support}%
+         \figlabel{halfsit-stand(1).eps}%
+         \vspace{-10mm}
+         \vspaceafterfig
+        \end{center}%
+\end{figure}%  
+\begin{figure}[t]%
+        \begin{center}%
+         \pastefig{\FIGDIR/halfsit length(1).eps}{width=0.8\hsize}%
+         \vspacebeforefig
+         \caption{Stand-up assistance experiment after half-sitting posture (cylinder length and weight)}%
+         \figlabel{halfsit length(1).eps}%
+         \vspace{-7mm}
+         \vspaceafterfig
+        \end{center}%
+\end{figure}% 
  \subsection{中腰支援後のシリンダから回生タンクの圧力平衡}\subseclabel{h2}
  中腰支援を行った後，シリンダを縮める部屋の圧力を回生タンクに排気することで，
  シリンダの縮めるの力が弱まり，立ち上がり支援することが可能である．
  シリンダの縮める部屋の圧力を排気する際のシリンダとメインタンクの概略図を
- \figref{halfsit haiki(2).eps}に示す．
+ \figref{halfsit haiki(4).eps}に示す．
  シリンダには，質量$M$の物体が乗っていると想定する．
  シリンダを伸ばす部屋の初期圧力，体積，断面積はそれぞれ，
- $P_{h\_cu2}$，$V_{h\_cu2}$，$S_{cu}$で，シリンダの縮める部屋の初期圧力，
- 体積，断面積は，$P_{h\_cb2}$，$V_{h\_cb2}$，$S_{cb}$とする．回生タンクの圧力，
- 体積はそれぞれ，$P_{h\_s1}$，$V_{s}$とする．シリンダを縮める部屋から回生タンクに
+ $P_{cu1}$，$V_{cu1}$，$S_{cu}$で，シリンダの縮める部屋の初期圧力，
+ 体積，断面積は，$P_{cb1}$，$V_{cb1}$，$S_{cb}$とする．回生タンクの圧力，
+ 体積はそれぞれ，$P_{s1}$，$V_{s}$とする．シリンダを縮める部屋から回生タンクに
  空気を排気し，シリンダの縮める部屋と回生タンクの圧力は平衡状態となる．
- シリンダが$z_{h2}$だけ伸びたとすると，ピストンは，シリンダを伸ばす部屋の圧力，
- 体積はそれぞれ，$P_{h\_cu3}$，$V_{h\_cu3}$，シリンダの縮める部屋の圧力，
- 体積はそれぞれ，$P_{h\_eq1}$，$V_{h\_cb3}$，回生タンクの圧力がメインタンクの圧力
- は，$P_{h\_eq1}$に変化したとする．ここで，平衡状態の圧力$P_{h\_eq1}$は
+ シリンダが$z$だけ伸びたとすると，ピストンは，シリンダを伸ばす部屋の圧力，
+ 体積はそれぞれ，$P_{cu2}$，$V_{cu2}$，シリンダの縮める部屋の圧力，
+ 体積はそれぞれ，$P_{eq}$，$V_{cb2}$，回生タンクの圧力がメインタンクの圧力
+ は，$P_{eq}$に変化したとする．ここで，平衡状態の圧力$P_{eq}$は
 \begin{eqnarray}
-         P_{h\_cb2}V_{h\_cb2} + P_{h\_s1}V_{s} &=& P_{h\_eq1}V_{h\_cb3} + P_{h\_eq1}V_{s}\label{14}\\
-         V_{h\_cb3} &=& V_{h\_cb2} - S_{cb}z_{h2}
+         P_{cb1}V_{cb1} + P_{s1}V_{s} &=& P_{eq}V_{cb2} + P_{eq}V_{s}\label{14}\\
+         V_{cb2} &=& V_{cb1} - S_{cb}z
 \end{eqnarray}
 また，平衡状態でのシリンダに作用する力は釣り合い，
 \begin{eqnarray}
-         P_{h\_eq1}S_{cb} &=& P_{h\_cu3}S_{cu} - Mg\label{16}\\
-         P_{h\_cu2}V_{h\_cu2} &=& P_{h\_cu3}V_{h\_cu3}\label{17}\\
-         V_{h\_cu3} &=& V_{h\_cu2} + (S_{cu}z_{h2})
+         P_{eq}S_{cb} &=& P_{cu2}S_{cu} - Mg\label{16}\\
+         P_{cu1}V_{cu1} &=& P_{cu2}V_{cu2}\label{17}\\
+         V_{cu2} &=& V_{cu1} + (S_{cu}z)
 \end{eqnarray}
 ここで，式\eqref{17}よりシリンダを縮める部屋の空気は，
 ボイルの法則を満たす．式\eqref{14}と式\eqref{16}を基にシリンダの
-伸び$z_{h2}$と$P_{h\_eq1}$を求めることができる．
+伸び$z$と$P_{eq}$を求めることができる．また，シリンダを伸ばす部屋に空気を印加および排気した場合に関しても
+同様にボイルの法則とシリンダに作用する力の釣り合いでシリンダの伸び$z$と平衡状態の圧力$P_{eq}$を求めることができる．
         % \figref{standup kaisei(noregeneration).eps}よりメインタンクの圧力を回復させるのに約8.0 min要した．次に一度立ち上がり支援を行った後， 3 Lの回生タンクに圧力を回収し，回生タンクの空気を使用して空気を圧縮する実験を行った．実験結果を \figref{standup kaisei(regeneration).eps}に示す．実験の結果から約4.9 minかかった．これらの実験結果から回生タンクを用いるとコンプレッサの動作時間を約3.1 min削減することが確認できた． 
         % \fig{halfsit-stand.eps}{width=1\hsize}
         % {Assistance in standing up after half-sit posture support}
@@ -93,75 +154,28 @@ $P_{h\_cb1}$，$V_{h\_cb1}$，$S_{cb}$，$L_{cb1}$とする．
         % {Stand-up assistance experiment after half-sitting posture (cylinder length and weight)}
         % \fig{halfsit haiki.eps}{width=0.8\hsize}
         % {Transition in recovery pressure after half sitting posture support}    
-        \begin{figure}[t]%
-                \begin{center}%
-                 \pastefig{\FIGDIR/halfsit haiki.eps}{width=0.65\hsize}%
-                 \vspacebeforefig
-                 \caption{Transition in recovery pressure after half sitting posture support}%
-                 \figlabel{halfsit haiki.eps}%
-                 \vspaceafterfig
-                \end{center}%
-        \end{figure}%  
-        \begin{figure}[t]%
-                \begin{center}%
-                 \pastefig{\FIGDIR/halfsit-stand.eps}{width=0.65\hsize}%
-                 \vspacebeforefig
-                 \caption{Assistance in standing up after half-sit posture support}%
-                 \figlabel{halfsit-stand.eps}%
-                 \vspaceafterfig
-                \end{center}%
-        \end{figure}%  
-        \subsection{中腰支援後の回生タンクへの回収実験}
-         中腰支援を行った後，シリンダの縮める部屋から回生タンクへ一度排気したとき
-         に回収できる圧力を確認した．実験の結果を\figref{halfsit haiki.eps}に示す．
-         \figref{halfsit haiki.eps}より，シリンダを縮める部屋の圧力が296 kPaの時に
-         回生タンクへ排気すると，回生タンクに圧力を21 kPa回収できた．\subsecref{h2}の式
-         を用いて計算すると，シリンダを縮める部屋の圧力が296 kPaの時に回生タンクへ回収
-         できる圧力$P_{h\_eq1}$は21 kPaであり，実験値と近い値であることが確認できた．
-         また，立ち上がりの様子を\figref{halfsit-stand.eps}に，立ち上がり時のシリンダ
-         の長さと重量の変化を\figref{halfsit length.eps}にを示す．
-         シリンダには平均45.7 kgの荷重がかかっている．シリンダを縮める部屋の
-         圧力が低下することにより，立ち上がり支援を行うことができ，90 mmから147 mmまで，
-         57mmの立ち上がり支援を行うことが確認できた．
-         \subsecref{h2}をの式用いてシリンダの伸び$z_{h2}$を計算すると，
-         シリンダの長さは65 mm であり，少し実験値と差があることが確認された．
-         理論値より，実験値がほうが小さいと考えられるのは，粘性の影響が考えられる．
-         \begin{figure}[t]%
-                \begin{center}%
-                 \pastefig{\FIGDIR/halfsit length.eps}{width=0.7\hsize}%
-                 \vspacebeforefig
-                 \caption{Stand-up assistance experiment after half-sitting posture (cylinder length and weight)}%
-                 \figlabel{halfsit length.eps}%
-                 \vspaceafterfig
-                \end{center}%
-        \end{figure}% 
-        \begin{figure}[t]%
-                \begin{center}%
-                 \pastefig{\FIGDIR/halfsit kaisei0.eps}{width=0.65\hsize}%
-                 \vspacebeforefig
-                 \caption{Transition in pressure for compression speed comparison (without regeneration, after
-                 half-sitting posture support)}%
-                 \figlabel{halfsit kaisei0.eps}%
-                 \vspaceafterfig
-                \end{center}%
-        \end{figure}% 
-        \begin{figure}[t]%
-                \begin{center}%
-                 \pastefig{\FIGDIR/halfsit kaisei1.eps}{width=0.65\hsize}%
-                 \vspacebeforefig
-                 \caption{Transition in pressure for compression speed comparison (with regeneration, after half-
-                 sitting posture support)}%
-                 \figlabel{halfsit kaisei1.eps}%
-                 \vspaceafterfig
-                \end{center}%
-        \end{figure}% 
- \subsection{中腰支援後のコンプレッサ圧縮速度短縮実験}
+\subsection{立ち上がり支援実験とシリンダの伸縮（縮める部屋排気）}
+ 中腰支援を行った後，シリンダの縮める部屋から回生タンクへ一度排気したとき
+に回収できる圧力を確認した．実験の結果を\figref{halfsit haiki(3).eps}に示す．
+\figref{halfsit haiki(3).eps}より，シリンダを縮める部屋の圧力が296 kPaの時に
+回生タンクへ排気すると，回生タンクに圧力を21 kPa回収できた．\subsecref{h2}の式
+を用いて計算すると，シリンダを縮める部屋の圧力が296 kPaの時に回生タンクへ回収
+できる圧力$P_{eq}$は21 kPaであり，実験値と近い値であることが確認できた．
+また，立ち上がりの様子を\figref{halfsit-stand(1).eps}に，立ち上がり時のシリンダ
+の長さと重量の変化を\figref{halfsit length(1).eps}にを示す．
+シリンダには平均45.7 kgの荷重がかかっている．シリンダを縮める部屋の
+圧力が低下することにより，立ち上がり支援を行うことができ，90 mmから147 mmまで，
+57 mmの立ち上がり支援を行うことが確認できた．
+\subsecref{h2}をの式用いてシリンダの伸び$z$を計算すると，
+シリンダの長さは64 mm であり，少し実験値と差があることが確認された．
+理論値より，実験値がほうが小さいと考えられるのは，粘性の影響が考えられる．
+\subsection{中腰支援後のコンプレッサ圧縮速度短縮実験}
 中腰支援を一回行った後，空気回生の有無により，メインタンクの圧力
 を回復させる時間を短縮できるか確認を行った．空気回生をせずに大気から
 空気を取り込んでメインタンクの圧力を400kPaまで回復させた結果
-を\figref{halfsit kaisei0.eps}に，回生タンクから空気を取り込んで
-メインタンクの圧力を回復させた結果を\figref{halfsit kaisei1.eps}に示す．
-\figref{halfsit kaisei0.eps}より回生なしの場合はメインタンクの圧力を回復
-させるのに約9.5 min要した．一方，\figref{halfsit kaisei1.eps}より回生ありの
+を\figref{halfsit kaisei0(1).eps}に，回生タンクから空気を取り込んで
+メインタンクの圧力を回復させた結果を\figref{halfsit kaisei1(1).eps}に示す．
+\figref{halfsit kaisei0(1).eps}より回生なしの場合はメインタンクの圧力を回復
+させるのに約9.5 min要した．一方，\figref{halfsit kaisei1(1).eps}より回生ありの
 場合は約8.2 min要した．これにより，回生タンクを用いるとコンプレッサの動作時間
 を約1.3 min削減することが確認できた．

@@ -1,12 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{power1}
-足立啓, 佐々木大輔, 高岩昌弘.
-\newblock 3a1-q06
-  重装備に起因する体幹および下肢の負担軽減を目的とした空気式パワーアシストウェア(ウェアラブルロボティクス).
-\newblock ロボティクス・メカトロニクス講演会講演概要集, Vol. 2014, pp.
-  \_3A1--Q06\_1--\_3A1--Q06\_4, 2014.
-
 \bibitem{power2}
 則次俊郎.
 \newblock 空気圧ゴム人工筋を用いたパワーアシストウェアの開発.
@@ -29,30 +22,16 @@ Adam Zoss, Hami Kazerooni, and Andrew Chu.
 \newblock In {\em 2005 IEEE/RSJ international conference on intelligent robots
   and systems}, pp. 3465--3472. IEEE, 2005.
 
-\bibitem{ito}
-伊藤拓未, 内山輝一, 戸森央貴.
-\newblock
-  中腰姿勢の維持を目的とする空気圧ゴム人工筋肉を用いた膝関節アシスト装具の開発.
-\newblock  ロボティクス・メカトロニクス講演会講演概要集 2022, pp. 2A1--E11.
-  一般社団法人 日本機械学会, 2022.
-
-\bibitem{nori}
-則次俊郎, 高雷.
-\newblock 湾曲型空気圧ゴム人工筋を用いた腰部パワーアシスト装置の開発.
-\newblock 日本フルードパワーシステム学会論文集, Vol.~36, No.~6, pp. 143--151,
-  2005.
-
-\bibitem{noonee}
-Noonee.
-\newblock Chairless chair 2.0, 2019.
-\newblock \url{https://www.noonee.com/?lang=en}.
-
 \bibitem{yao}
 Yao Tu, Aibin Zhu, Jiyuan Song, Xiaodong Zhang, and Guangzhong Cao.
 \newblock Design and experimental evaluation of a lower-limb exoskeleton for
   assisting workers with motorized tuning of squat heights.
 \newblock {\em IEEE Transactions on Neural Systems and Rehabilitation
   Engineering}, Vol.~30, pp. 184--193, 2022.
+
+\bibitem{noonee}
+{Noonee}.
+\newblock \url{https://www.noonee.com/?lang=en}, 最終アクセス日 2025/3/6.
 
 \bibitem{osada1}
 井上賢之, 川平洋, 下村義弘, 高久美子, 堀江久永, 佐田尚宏.
@@ -72,13 +51,6 @@ Rushikesh~M Magdum and Sachin~M Jadhav.
   industrial workers and farmers.
 \newblock {\em Glob Res Dev J Eng}, Vol.~3, No.~8, pp. 5--11, 2018.
 
-\bibitem{kumakura}
-熊倉翔平, 水内郁夫.
-\newblock 2a2-p03
-  高圧コンプレッサと空気圧回生システムを搭載した自立型空気圧駆動ロボットbirdlegの開発と跳躍動作実現(アクチュエータの機構と制御(2)).
-\newblock ロボティクス・メカトロニクス講演会講演概要集, Vol. 2014, pp.
-  \_2A2--P03\_1--\_2A2--P03\_4, 2014.
-
 \bibitem{kuma}
 熊倉翔平, 水内郁夫.
 \newblock 2p1-d13
@@ -90,10 +62,5 @@ Rushikesh~M Magdum and Sachin~M Jadhav.
 佐々木大輔, 則次俊郎, 高岩昌弘, 岩脇辰侑.
 \newblock 空気圧駆動ウェアラブルデバイスのための小型空気圧供給システムの開発.
 \newblock 日本ロボット学会誌, Vol.~31, No.~7, pp. 659--668, 2013.
-
-\bibitem{petto}
-福田忠生, 尾崎公一, 山部匡央, 飯坂元哉, 早川悌二.
-\newblock 耐圧ペットボトルの構造挙動と耐圧強度に関する一検討.
-\newblock 圧力技術, Vol.~49, No.~3, pp. 118--123, 2011.
 
 \end{thebibliography}

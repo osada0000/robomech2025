@@ -1,319 +1,3001 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.euc) (TeX Live 2023/Debian) (preloaded format=platex 2024.10.3)  17 FEB 2025 18:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.3)  6 MAR 2025 22:34
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**main
-(./main.tex
-pLaTeX2e <2023-02-14>+1, based on
+**/home/osada/robomech2025/template_robomech2024_tex/main.tex
+(/home/osada/robomech2025/template_robomech2024_tex/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/platex/base/jarticle.cls
-Document Class: jarticle 2020/09/30 v1.8f Standard pLaTeX class
-\c@@paper=\count186
-(/usr/share/texlive/texmf-dist/tex/platex/base/jsize10.clo
-File: jsize10.clo 2020/09/30 v1.8f Standard pLaTeX file (size option)
-)
-\c@part=\count187
-\c@section=\count188
-\c@subsection=\count189
-\c@subsubsection=\count190
-\c@paragraph=\count191
-\c@subparagraph=\count192
-\c@figure=\count193
-\c@table=\count194
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\symmincho=\mathgroup4
-LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
-(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 615.
-\toclineskip=\dimen156
-\@lnumwidth=\dimen157
-\bibindent=\dimen158
-\heisei=\count195
+
+/usr/share/texlive/texmf-dist/tex/platex/base/jarticle.cls:16: LaTeX Error: This file needs format `pLaTeX2e'
+               but this is `LaTeX2e'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \NeedsTeXFormat{pLaTeX2e}
+                              
+The current input file will not be processed further,
+because it was written for some other flavor of TeX.
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 ) (./robomech.sty
 Document Style Option 'For robomec style file.' by E.Uchibe <31 Jan 95>
 modified by ROBOMECH2022 program committee <15 Oct 21>
-\tmptoki=\toks18
-\tmptokii=\toks19
-\c@header=\count196
+./robomech.sty:39: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.39 \parindent      1z
+                       w
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+./robomech.sty:39: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 \parindent      1z
+                       w
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no z in font nullfont!
+Missing character: There is no w in font nullfont!
+./robomech.sty:56: Undefined control sequence.
+l.56 \abovecaptionskip
+                      	0pt
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./robomech.sty:56: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 \abovecaptionskip	0
+                        pt
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+./robomech.sty:57: Undefined control sequence.
+l.57 \belowcaptionskip
+                      	-3pt
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no - in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+\tmptoki=\toks17
+\tmptokii=\toks18
+\c@header=\count187
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks20
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+\KV@toks@=\toks19
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: dvips.def on input line 107.
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvips.def
-File: dvips.def 2022/09/22 v3.1e Graphics/color driver for dvips
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen159
-\Gin@req@width=\dimen160
+\Gin@req@height=\dimen140
+\Gin@req@width=\dimen141
 ) (./ikuo.sty) (./jtygm.sty
-Package: jtygm 1998/06/12 based on v1.3 KANJI font defines
+
+./jtygm.sty:12: LaTeX Error: This file needs format `pLaTeX2e'
+               but this is `LaTeX2e'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \NeedsTeXFormat{pLaTeX2e}
+                              
+The current input file will not be processed further,
+because it was written for some other flavor of TeX.
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
-\symboldoperators=\mathgroup5
-\symboldletters=\mathgroup6
-\symboldsymbols=\mathgroup7
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
 Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
-\symboldmincho=\mathgroup8
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/preprint/balance.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/preprint/balance.sty
 Package: balance 1999/02/23 4.3 (PWD)
-\oldvsize=\dimen161
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+\oldvsize=\dimen142
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks21
-\symAMSa=\mathgroup9
-\symAMSb=\mathgroup10
+\@emptytoks=\toks20
+\symAMSa=\mathgroup7
+\symAMSb=\mathgroup8
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
-\@mathmargin=\skip50
+\@mathmargin=\skip48
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks22
-\ex@=\dimen162
-))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+\@emptytoks=\toks21
+\ex@=\dimen143
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 LaTeX Info: Redefining \boldsymbol on input line 28.
-\pmbraise@=\dimen163
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+\pmbraise@=\dimen144
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count197
+\inf@bad=\count188
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count198
-\leftroot@=\count199
+\uproot@=\count189
+\leftroot@=\count190
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count266
-\DOTSCASE@=\count267
+\classnum@=\count191
+\DOTSCASE@=\count192
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box68
-\strutbox@=\box69
+\Mathstrutbox@=\box51
+\strutbox@=\box52
 LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen164
+\big@size=\dimen145
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count268
+\macc@depth=\count193
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count269
+\c@MaxMatrixCols=\count194
 \dotsspace@=\muskip16
-\c@parentequation=\count270
-\dspbrk@lvl=\count271
-\tag@help=\toks23
-\row@=\count272
-\column@=\count273
-\maxfields@=\count274
-\andhelp@=\toks24
-\eqnshift@=\dimen165
-\alignsep@=\dimen166
-\tagshift@=\dimen167
-\tagwidth@=\dimen168
-\totwidth@=\dimen169
-\lineht@=\dimen170
-\@envbody=\toks25
-\multlinegap=\skip51
-\multlinetaggap=\skip52
-\mathdisplay@stack=\toks26
+\c@parentequation=\count195
+\dspbrk@lvl=\count196
+\tag@help=\toks22
+\row@=\count197
+\column@=\count198
+\maxfields@=\count199
+\andhelp@=\toks23
+\eqnshift@=\dimen146
+\alignsep@=\dimen147
+\tagshift@=\dimen148
+\tagwidth@=\dimen149
+\totwidth@=\dimen150
+\lineht@=\dimen151
+\@envbody=\toks24
+\multlinegap=\skip49
+\multlinetaggap=\skip50
+\mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen171
-\captionmargin=\dimen172
-\caption@leftmargin=\dimen173
-\caption@rightmargin=\dimen174
-\caption@width=\dimen175
-\caption@indent=\dimen176
-\caption@parindent=\dimen177
-\caption@hangindent=\dimen178
+\caption@tempdima=\dimen152
+\captionmargin=\dimen153
+\caption@leftmargin=\dimen154
+\caption@rightmargin=\dimen155
+\caption@width=\dimen156
+\caption@indent=\dimen157
+\caption@parindent=\dimen158
+\caption@hangindent=\dimen159
+\abovecaptionskip=\skip51
+\belowcaptionskip=\skip52
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
-Package caption Info: \@makecaption = \long macro:#1#2-> \vskip 10pt \setbox \@
-tempboxa \hbox {#1 #2} \ifdim \wd \@tempboxa >\hsize \@hangfrom {#1 }#2\par \el
-se \hbox to\hsize {\hfil \box \@tempboxa \hfil } \fi  on input line 1175.
+Package caption Info: \@makecaption = \long macro:#1#2-> \vskip 10pt \setbox \@tempboxa \hbox {#1 #2} \ifdim \wd \@tempboxa >\hsize \@hangfrom {#1 }#2\par \else \hbox to\hsize {\hfil \box \@tempboxa \hfil } \fi  on input line 1175.
 )
 
 Package caption Warning: Unknown document class (or package),
 (caption)                standard defaults will be used.
 See the caption package documentation for explanation.
 
-\c@caption@flags=\count275
-\c@continuedfloat=\count276
+\c@caption@flags=\count266
+\c@continuedfloat=\count267
 ) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
-Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count277
-Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count278
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-File: l3backend-dvips.def 2024-01-04 L3 backend support: dvips
-\l__pdf_internal_box=\box70
-\g__pdf_backend_object_int=\count279
-\l__pdf_backend_content_box=\box71
-\l__pdf_backend_model_box=\box72
-\g__pdf_backend_annotation_int=\count280
-\g__pdf_backend_link_int=\count281
-\g__pdf_backend_link_sf_int=\count282
-)
-(./main.aux)
+) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count268
+\l__pdf_internal_box=\box53
+) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:21: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \begin{document}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count269
+\scratchdimen=\dimen160
+\scratchbox=\box54
+\nofMPsegments=\count270
+\nofMParguments=\count271
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count272
+\MPscratchDim=\dimen161
+\MPnumerator=\count273
+\makeMPintoPDFobject=\count274
+\everyMPtoPDFconversion=\toks27
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
-
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
 
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./chap1.tex)
-(./chap2.tex
-File: ./fig/2.1.eps Graphic file (type eps)
- <./fig/2.1.eps>
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: ./fig/kaisei(zu).eps Graphic file (type eps)
-<./fig/kaisei(zu).eps>
-File: ./fig/wearablechair.eps Graphic file (type eps)
- <./fig/wearablechair.eps>) (./chap3.tex
-
-LaTeX Warning: Reference `fig:4.6.eps' on page 1 undefined on input line 21.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 [1
 
 
-
 ]
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.63 \maketitle
+               
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
 
-LaTeX Warning: Reference `fig:3.7' on page 2 undefined on input line 24.
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: Undefined control sequence.
+\@titlefont ->\Large 
+                     \bf \textsf 
+l.63 \maketitle
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-
-LaTeX Warning: Reference `fig:3.7' on page 2 undefined on input line 26.
-
-
-LaTeX Warning: Reference `fig:3.7' on page 2 undefined on input line 27.
-
-) (./chap4.tex
-
-LaTeX Warning: Reference `fig:4.3(2).eps' on page 2 undefined on input line 5.
-
-File: ./fig/halfsit pressure.eps Graphic file (type eps)
-<./fig/halfsit pressure.eps>
-File: ./fig/halfsit haiki(2).eps Graphic file (type eps)
- <./fig/halfsit haiki(2).eps> [2]
-File: ./fig/halfsit haiki.eps Graphic file (type eps)
-
-<./fig/halfsit haiki.eps>
-File: ./fig/halfsit-stand.eps Graphic file (type eps)
- <./fig/halfsit-stand.eps>
-File: ./fig/halfsit length.eps Graphic file (type eps)
- <./fig/halfsit length.eps>
-File: ./fig/halfsit kaisei0.eps Graphic file (type eps)
-
-<./fig/halfsit kaisei0.eps>
-File: ./fig/halfsit kaisei1.eps Graphic file (type eps)
- <./fig/halfsit kaisei1.eps>) (./chap5.tex
-
-LaTeX Warning: Reference `subsec:st' on page 3 undefined on input line 11.
-
-
-LaTeX Warning: Reference `subsec:st' on page 3 undefined on input line 14.
-
-File: ./fig/support standup.eps Graphic file (type eps)
-<./fig/support standup.eps>
-File: ./fig/standup pressure.eps Graphic file (type eps)
- <./fig/standup pressure.eps>
-File: ./fig/standup support length.eps Graphic file (type eps)
-
-<./fig/standup support length.eps>) (./chap6.tex) [3] (./main.bbl) [4]
-(./main.aux)
- ***********
-pLaTeX2e <2023-02-14>+1, based on
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-22>
- ***********
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: Undefined control sequence.
+\@titlefont ->\Large \bf 
+                         \textsf 
+l.63 \maketitle
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: There were undefined references.
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 立 (U+7ACB)
+               not set up for use with LaTeX.
 
- ) 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character ち (U+3061)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 上 (U+4E0A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character が (U+304C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character り (U+308A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 時 (U+6642)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 支 (U+652F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 援 (U+63F4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character と (U+3068)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character エ (U+30A8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character ネ (U+30CD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character ル (U+30EB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character ギ (U+30AE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character ー (U+30FC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 消 (U+6D88)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 費 (U+8CBB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character な (U+306A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character し (U+3057)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 中 (U+4E2D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 腰 (U+8170)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 支 (U+652F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 援 (U+63F4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character が (U+304C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 可 (U+53EF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 能 (U+80FD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character な (U+306A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 空 (U+7A7A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 気 (U+6C17)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 圧 (U+5727)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 回 (U+56DE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 生 (U+751F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 型 (U+578B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character ウ (U+30A6)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character ェ (U+30A7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character ア (U+30A2)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character ラ (U+30E9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character ブ (U+30D6)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character ル (U+30EB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 椅 (U+6905)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 子 (U+5B50)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: Undefined control sequence.
+\@subtitlefont ->\large 
+                        \bf \textsf 
+l.63 \maketitle
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: Undefined control sequence.
+\@subtitlefont ->\large \bf 
+                            \textsf 
+l.63 \maketitle
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.63 \maketitle
+               
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: Undefined control sequence.
+\@etitlefont ->\large 
+                      
+l.63 \maketitle
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.63 \maketitle
+               
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 　 (U+3000)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 　 (U+3000)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 長 (U+9577)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 田 (U+7530)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 京 (U+4EAC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 右 (U+53F3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character （ (U+FF08)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 東 (U+6771)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 京 (U+4EAC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 農 (U+8FB2)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 工 (U+5DE5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 大 (U+5927)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character ） (U+FF09)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.63 \maketitle
+               
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 森 (U+68EE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 下 (U+4E0B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 克 (U+514B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 幸 (U+5E78)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character （ (U+FF08)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 東 (U+6771)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 京 (U+4EAC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 農 (U+8FB2)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 工 (U+5DE5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 大 (U+5927)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character ） (U+FF09)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character ○ (U+25CB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 正 (U+6B63)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.63 \maketitle
+               
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 水 (U+6C34)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 内 (U+5185)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 郁 (U+90C1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 夫 (U+592B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character （ (U+FF08)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 東 (U+6771)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 京 (U+4EAC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 農 (U+8FB2)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 工 (U+5DE5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character 大 (U+5927)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: LaTeX Error: Unicode character ） (U+FF09)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.63 \maketitle
+               
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: Undefined control sequence.
+\@author ... {1zh} \\ \begin {tabular}{l} {\small 
+                                                  Kyosuke OSADA, TUAT, osada...
+l.63 \maketitle
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: Undefined control sequence.
+\@author ...25@mizuuchi.lab.tuat.ac.jp}\\ {\small 
+                                                  Katsuyuki MORISHITA, TUAT,...
+l.63 \maketitle
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: Undefined control sequence.
+\@author ...ta@mizuuchi.lab.tuat.ac.jp}\\ {\small 
+                                                  Ikuo MIZUUCHI, TUAT, ikuo@...
+l.63 \maketitle
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: Undefined control sequence.
+\@abstract -> \small 
+                     Prolonged sitting and standing up at work is physically...
+l.63 \maketitle
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.63 \maketitle
+               
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: Undefined control sequence.
+<recently read> \bf 
+                    
+l.63 \maketitle
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: Undefined control sequence.
+\@maketitle ... \textbf {Key Words}\bf : }{\small 
+                                                  \@keywords } \par \end {mi...
+l.63 \maketitle
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:63: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.63 \maketitle
+               
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/home/osada/robomech2025/template_robomech2024_tex/main.tex:67: Undefined control sequence.
+l.67 \small
+           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(./chap1.tex
+./chap1.tex:1: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.1 \section
+            {緒言}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+./chap1.tex:1: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \section
+            {緒言}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./chap1.tex:1: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \section
+            {緒言}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./chap1.tex:1: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.1 \section{緒言}
+                    
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+./chap1.tex:1: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \section{緒言}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./chap1.tex:1: Undefined control sequence.
+<argument> \centering \normalsize \bf 
+                                      
+l.1 \section{緒言}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./chap1.tex:1: LaTeX Error: Unicode character 緒 (U+7DD2)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \section{緒言}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:1: LaTeX Error: Unicode character 言 (U+8A00)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \section{緒言}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+./chap1.tex:1: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.1 \section{緒言}
+                    
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+./chap1.tex:2: LaTeX Error: Unicode character 農 (U+8FB2)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 農
+       場や工場などでの作業では，収穫や製造の各工程に...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character 場 (U+5834)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 農場
+          や工場などでの作業では，収穫や製造の各工程に...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character や (U+3084)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 農場や
+             工場などでの作業では，収穫や製造の各工程に...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character 工 (U+5DE5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 農場や工
+                場などでの作業では，収穫や製造の各工程に...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character 場 (U+5834)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 農場や工場
+                   などでの作業では，収穫や製造の各工程に...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character な (U+306A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 農場や工場な
+                      どでの作業では，収穫や製造の各工程に...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character ど (U+3069)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 農場や工場など
+                         での作業では，収穫や製造の各工程に...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character で (U+3067)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 農場や工場などで
+                            の作業では，収穫や製造の各工程に...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 農場や工場などでの
+                               作業では，収穫や製造の各工程に...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character 作 (U+4F5C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 農場や工場などでの作
+                                  業では，収穫や製造の各工程に...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character 業 (U+696D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 農場や工場などでの作業
+                                     では，収穫や製造の各工程に...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character で (U+3067)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 農場や工場などでの作業で
+                                        は，収穫や製造の各工程に...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character は (U+306F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 農場や工場などでの作業では
+                                           ，収穫や製造の各工程に...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character ， (U+FF0C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 農場や工場などでの作業では，
+                                              収穫や製造の各工程に...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character 収 (U+53CE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 農場や工場などでの作業では，収
+                                                 穫や製造の各工程に...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character 穫 (U+7A6B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�や工場などでの作業では，収穫
+                                                  や製造の各工程に�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character や (U+3084)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�工場などでの作業では，収穫や
+                                                  製造の各工程にお�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character 製 (U+88FD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�場などでの作業では，収穫や製
+                                                  造の各工程におい�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character 造 (U+9020)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�などでの作業では，収穫や製造
+                                                  の各工程において�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�どでの作業では，収穫や製造の
+                                                  各工程において長�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character 各 (U+5404)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�での作業では，収穫や製造の各
+                                                  工程において長時�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character 工 (U+5DE5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�の作業では，収穫や製造の各工
+                                                  程において長時間�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character 程 (U+7A0B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�作業では，収穫や製造の各工程
+                                                  において長時間に�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character に (U+306B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�業では，収穫や製造の各工程に
+                                                  おいて長時間にわ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character お (U+304A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�では，収穫や製造の各工程にお
+                                                  いて長時間にわた�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character い (U+3044)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�は，収穫や製造の各工程におい
+                                                  て長時間にわたる�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character て (U+3066)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�，収穫や製造の各工程において
+                                                  長時間にわたる中�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character 長 (U+9577)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�収穫や製造の各工程において長
+                                                  時間にわたる中腰�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character 時 (U+6642)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�穫や製造の各工程において長時
+                                                  間にわたる中腰姿�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character 間 (U+9593)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�や製造の各工程において長時間
+                                                  にわたる中腰姿勢�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character に (U+306B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�製造の各工程において長時間に
+                                                  わたる中腰姿勢を�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character わ (U+308F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�造の各工程において長時間にわ
+                                                  たる中腰姿勢を維�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character た (U+305F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�の各工程において長時間にわた
+                                                  る中腰姿勢を維持�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character る (U+308B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�各工程において長時間にわたる
+                                                  中腰姿勢を維持し�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character 中 (U+4E2D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�工程において長時間にわたる中
+                                                  腰姿勢を維持した�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character 腰 (U+8170)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�程において長時間にわたる中腰
+                                                  姿勢を維持したり，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character 姿 (U+59FF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�において長時間にわたる中腰姿
+                                                  勢を維持したり，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character 勢 (U+52E2)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�おいて長時間にわたる中腰姿勢
+                                                  を維持したり，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character を (U+3092)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�いて長時間にわたる中腰姿勢を
+                                                  維持したり，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character 維 (U+7DAD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�て長時間にわたる中腰姿勢を維
+                                                  持したり，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character 持 (U+6301)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�長時間にわたる中腰姿勢を維持
+                                                  したり，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character し (U+3057)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�時間にわたる中腰姿勢を維持し
+                                                  たり，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character た (U+305F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�間にわたる中腰姿勢を維持した
+                                                  り，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character り (U+308A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�にわたる中腰姿勢を維持したり
+                                                  ，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:2: LaTeX Error: Unicode character ， (U+FF0C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...�わたる中腰姿勢を維持したり，
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character 立 (U+7ACB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 立
+       ち上がり動作が求められることが多く身体的負担が...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character ち (U+3061)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 立ち
+          上がり動作が求められることが多く身体的負担が...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character 上 (U+4E0A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 立ち上
+             がり動作が求められることが多く身体的負担が...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character が (U+304C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 立ち上が
+                り動作が求められることが多く身体的負担が...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character り (U+308A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 立ち上がり
+                   動作が求められることが多く身体的負担が...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character 動 (U+52D5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 立ち上がり動
+                      作が求められることが多く身体的負担が...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character 作 (U+4F5C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 立ち上がり動作
+                         が求められることが多く身体的負担が...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character が (U+304C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 立ち上がり動作が
+                            求められることが多く身体的負担が...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character 求 (U+6C42)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 立ち上がり動作が求
+                               められることが多く身体的負担が...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character め (U+3081)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 立ち上がり動作が求め
+                                  られることが多く身体的負担が...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character ら (U+3089)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 立ち上がり動作が求めら
+                                     れることが多く身体的負担が...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character れ (U+308C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 立ち上がり動作が求められ
+                                        ることが多く身体的負担が...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character る (U+308B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 立ち上がり動作が求められる
+                                           ことが多く身体的負担が...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character こ (U+3053)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 立ち上がり動作が求められるこ
+                                              とが多く身体的負担が...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character と (U+3068)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 立ち上がり動作が求められること
+                                                 が多く身体的負担が...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character が (U+304C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�上がり動作が求められることが
+                                                  多く身体的負担が�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character 多 (U+591A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�がり動作が求められることが多
+                                                  く身体的負担が大�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character く (U+304F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�り動作が求められることが多く
+                                                  身体的負担が大き�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character 身 (U+8EAB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�動作が求められることが多く身
+                                                  体的負担が大きい�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character 体 (U+4F53)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�作が求められることが多く身体
+                                                  的負担が大きい．�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character 的 (U+7684)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�が求められることが多く身体的
+                                                  負担が大きい．そ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character 負 (U+8CA0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�求められることが多く身体的負
+                                                  担が大きい．その�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character 担 (U+62C5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�められることが多く身体的負担
+                                                  が大きい．そのた�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character が (U+304C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�られることが多く身体的負担が
+                                                  大きい．そのため�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character 大 (U+5927)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�れることが多く身体的負担が大
+                                                  きい．そのため，�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character き (U+304D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�ることが多く身体的負担が大き
+                                                  い．そのため，身�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character い (U+3044)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�ことが多く身体的負担が大きい
+                                                  ．そのため，身体�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character ． (U+FF0E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�とが多く身体的負担が大きい．
+                                                  そのため，身体的�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character そ (U+305D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�が多く身体的負担が大きい．そ
+                                                  のため，身体的負�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�多く身体的負担が大きい．その
+                                                  ため，身体的負担�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character た (U+305F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�く身体的負担が大きい．そのた
+                                                  め，身体的負担を�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character め (U+3081)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�身体的負担が大きい．そのため
+                                                  ，身体的負担を軽�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character ， (U+FF0C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�体的負担が大きい．そのため，
+                                                  身体的負担を軽減�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character 身 (U+8EAB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�的負担が大きい．そのため，身
+                                                  体的負担を軽減す�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character 体 (U+4F53)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�負担が大きい．そのため，身体
+                                                  的負担を軽減する�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character 的 (U+7684)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�担が大きい．そのため，身体的
+                                                  負担を軽減するた�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character 負 (U+8CA0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�が大きい．そのため，身体的負
+                                                  担を軽減するため�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character 担 (U+62C5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�大きい．そのため，身体的負担
+                                                  を軽減するために�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character を (U+3092)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�きい．そのため，身体的負担を
+                                                  軽減するために様々
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character 軽 (U+8EFD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�い．そのため，身体的負担を軽
+                                                  減するために様々
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character 減 (U+6E1B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�．そのため，身体的負担を軽減
+                                                  するために様々
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character す (U+3059)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�そのため，身体的負担を軽減す
+                                                  るために様々
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character る (U+308B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�のため，身体的負担を軽減する
+                                                  ために様々
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character た (U+305F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�ため，身体的負担を軽減するた
+                                                  めに様々
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character め (U+3081)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�め，身体的負担を軽減するため
+                                                  に様々
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character に (U+306B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�，身体的負担を軽減するために
+                                                  様々
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character 様 (U+69D8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�身体的負担を軽減するために様
+                                                  々
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:3: LaTeX Error: Unicode character 々 (U+3005)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�体的負担を軽減するために様々
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:4: LaTeX Error: Unicode character な (U+306A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 な
+       アシスト装置の研究が行われている
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:4: LaTeX Error: Unicode character ア (U+30A2)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 なア
+          シスト装置の研究が行われている
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:4: LaTeX Error: Unicode character シ (U+30B7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 なアシ
+             スト装置の研究が行われている
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:4: LaTeX Error: Unicode character ス (U+30B9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 なアシス
+                ト装置の研究が行われている
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:4: LaTeX Error: Unicode character ト (U+30C8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 なアシスト
+                   装置の研究が行われている
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:4: LaTeX Error: Unicode character 装 (U+88C5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 なアシスト装
+                      置の研究が行われている
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./chap1.tex:4: LaTeX Error: Unicode character 置 (U+7F6E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 なアシスト装置
+                         の研究が行われている
+(That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 4240 strings out of 474880
- 68114 string characters out of 5763303
- 1937820 words of memory out of 5000000
- 26423 multiletter control sequences out of 15000+600000
- 576772 words of font info for 108 fonts, out of 8000000 for 9000
- 929 hyphenation exceptions out of 8191
- 57i,15n,65p,949b,564s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 4256 strings out of 474222
+ 67899 string characters out of 5748733
+ 1925975 words of memory out of 5000000
+ 26482 multiletter control sequences out of 15000+600000
+ 563535 words of font info for 56 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,14n,65p,313b,319s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.dvi (4 pages, 41036 bytes).
+./chap1.tex:4:  ==> Fatal error occurred, no output PDF file produced!
